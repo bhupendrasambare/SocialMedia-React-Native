@@ -1,16 +1,16 @@
 import { SafeAreaView, StatusBar, Text, TouchableOpacity, View } from 'react-native'
 import React, { Component } from 'react'
-import {Bars3BottomLeftIcon} from "react-native-heroicons/solid"
-import {MagnifyingGlassIcon} from "react-native-heroicons/outline"
 import Navbar from './components/Navbar'
+import Navigation from './navigation/Navigation'
 
 export class App extends Component {
   render() {
     return (
         <SafeAreaView>
-            <View className="">
-                <Navbar/>    
-            </View>
+          <View className="h-full">
+              <Navbar/>
+              <Navigation/>
+          </View>
         </SafeAreaView>
     )
   }
