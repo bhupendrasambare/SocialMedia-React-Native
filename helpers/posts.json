@@ -1,0 +1,183 @@
+[
+    {
+      "id": 1,
+      "image": "https://source.unsplash.com/random/500x500",
+      "imageType": "landscape",
+      "username": "AaravSharma",
+      "fullName": "Aarav Sharma",
+      "location": "City",
+      "description": "A bustling city with towering skyscrapers and vibrant street life. The cityscape is filled with a mix of modern architecture and historical landmarks, creating a unique and dynamic atmosphere. Explore the bustling streets, visit cultural hotspots, and enjoy the diverse cuisine."
+    },
+    {
+      "id": 2,
+      "image": "https://source.unsplash.com/random/500x500",
+      "imageType": "portrait",
+      "username": "AnanyaPatel",
+      "fullName": "Ananya Patel",
+      "location": "Beach",
+      "description": "A serene beach with golden sands and crystal-clear blue waters. The sound of gentle waves lapping the shore creates a tranquil ambiance. Palm trees sway in the breeze, providing shade as you relax and enjoy the breathtaking ocean views."
+    },
+    {
+      "id": 3,
+      "image": "https://source.unsplash.com/random/400x500",
+      "imageType": "nature",
+      "username": "AryanSingh",
+      "fullName": "Aryan Singh",
+      "location": "Mountain",
+      "description": "Experience the awe-inspiring beauty of majestic mountains. Nestled in nature's embrace, these towering peaks offer breathtaking vistas and a sense of tranquility. Immerse yourself in the crisp mountain air and enjoy the serenity of untouched landscapes."
+    },
+    {
+      "id": 4,
+      "image": "https://source.unsplash.com/random/400x500",
+      "imageType": "landscape",
+      "username": "IshitaVerma",
+      "fullName": "Ishita Verma",
+      "location": "City",
+      "description": "Discover the vibrant energy of the city, where modernity meets tradition. From bustling markets to cultural landmarks, the city offers a diverse and enriching experience. Explore the rich history and immerse yourself in the city's lively atmosphere."
+    },
+    {
+      "id": 5,
+      "image": "https://source.unsplash.com/random/400x500",
+      "imageType": "portrait",
+      "username": "ArjunKumar",
+      "fullName": "Arjun Kumar",
+      "location": "Beach",
+      "description": "Escape to the tranquil beauty of the beach, where golden sands meet the gentle waves of the ocean. Enjoy the soothing sound of the sea, relax under the shade of palm trees, and experience the perfect blend of serenity and natural beauty."
+    },
+    {
+      "id": 6,
+      "image": "https://source.unsplash.com/random/400x500",
+      "imageType": "nature",
+      "username": "MiraSingh",
+      "fullName": "Mira Singh",
+      "location": "Mountain",
+      "description": "Embark on a journey through pristine mountain landscapes. The untouched beauty of nature unfolds with every step, offering breathtaking views and a sense of peace. Immerse yourself in the serenity of mountainous terrain."
+    },
+    {
+      "id": 7,
+      "image": "https://source.unsplash.com/random/400x500",
+      "imageType": "landscape",
+      "username": "VivaanPatil",
+      "fullName": "Vivaan Patil",
+      "location": "City",
+      "description": "Dive into the dynamic rhythm of city life, where skyscrapers reach for the sky and cultural diversity thrives. Wander through bustling streets, savor diverse cuisines, and experience the vibrant energy that defines the cityscape."
+    },
+    {
+      "id": 8,
+      "image": "https://source.unsplash.com/random/400x300",
+      "imageType": "portrait",
+      "username": "AishaRao",
+      "fullName": "Aisha Rao",
+      "location": "Beach",
+      "description": "Bask in the sun at the serene beach, where waves gently kiss the shore and palm trees sway in the breeze. The tranquil atmosphere invites relaxation, offering a perfect escape for those seeking solace by the ocean."
+    },
+    {
+      "id": 9,
+      "image": "https://source.unsplash.com/random/400x300",
+      "imageType": "nature",
+      "username": "RohanGupta",
+      "fullName": "Rohan Gupta",
+      "location": "Mountain",
+      "description": "Embark on an adventure in the heart of the mountains, where majestic peaks stand tall against the sky. The crisp mountain air and breathtaking scenery create an enchanting environment for those seeking a connection with nature."
+    },
+    {
+      "id": 10,
+      "image": "https://source.unsplash.com/random/400x300",
+      "imageType": "landscape",
+      "username": "ZaraSingh",
+      "fullName": "Zara Singh",
+      "location": "City",
+      "description": "Explore the vibrant cityscape, where historic landmarks coexist with modern architecture. The city's rich cultural tapestry unfolds as you navigate its bustling streets, offering a blend of tradition and contemporary life."
+    },
+    {
+      "id": 11,
+      "image": "https://source.unsplash.com/random/400x300",
+      "imageType": "portrait",
+      "username": "KabirMalhotra",
+      "fullName": "Kabir Malhotra",
+      "location": "Beach",
+      "description": "Relax on the sun-kissed shores of the beach, where the rhythm of the waves creates a soothing melody. Palm-fringed landscapes provide a picturesque backdrop as you unwind and take in the beauty of the coastal paradise."
+    },
+    {
+      "id": 12,
+      "image": "https://source.unsplash.com/random/500x500",
+      "imageType": "nature",
+      "username": "RiyaChopra",
+      "fullName": "Riya Chopra",
+      "location": "Mountain",
+      "description": "Embark on a journey to the breathtaking mountains, where nature's wonders unfold at every turn. Towering peaks, lush greenery, and serene landscapes create an immersive experience for those seeking solace in the arms of the mountains."
+    },
+    {
+      "id": 13,
+      "image": "https://source.unsplash.com/random/500x500",
+      "imageType": "landscape",
+      "username": "AryanReddy",
+      "fullName": "Aryan Reddy",
+      "location": "City",
+      "description": "Immerse yourself in the vibrant energy of the city, where diverse cultures converge and modernity meets tradition. The city's dynamic landscape offers a myriad of experiences, from historic landmarks to contemporary marvels."
+    },
+    {
+      "id": 14,
+      "image": "https://source.unsplash.com/random/500x500",
+      "imageType": "portrait",
+      "username": "EvaThakur",
+      "fullName": "Eva Thakur",
+      "location": "Beach",
+      "description": "Escape to the serene beach, where golden sands stretch for miles and the rhythmic sound of the waves creates a calming ambiance. Palm trees sway in the breeze, providing shade as you unwind by the crystal-clear waters."
+    },
+    {
+      "id": 15,
+      "image": "https://source.unsplash.com/random/500x500",
+      "imageType": "nature",
+      "username": "AaravGandhi",
+      "fullName": "Aarav Gandhi",
+      "location": "Mountain",
+      "description": "Embark on an adventure in the mountainous terrain, where snow-capped peaks and pristine landscapes captivate the senses. The crisp mountain air and awe-inspiring views offer a sanctuary for those seeking tranquility in nature's embrace."
+    },
+    {
+      "id": 16,
+      "image": "https://source.unsplash.com/random/500x500",
+      "imageType": "landscape",
+      "username": "MiraYadav",
+      "fullName": "Mira Yadav",
+      "location": "City",
+      "description": "Discover the vibrant city life, where historic landmarks and modern architecture coexist in harmony. From lively markets to cultural hotspots, the city invites exploration and promises a rich tapestry of experiences."
+    },
+    {
+      "id": 17,
+      "image": "https://source.unsplash.com/random/500x500",
+      "imageType": "portrait",
+      "username": "RohanVerma",
+      "fullName": "Rohan Verma",
+      "location": "Beach",
+      "description": "Unwind at the tranquil beach, where the soft sands meet the gentle waves of the ocean. Palm-fringed shores provide the perfect backdrop for relaxation, inviting you to savor the beauty of the coastal paradise."
+    },
+    {
+      "id": 18,
+      "image": "https://source.unsplash.com/random/500x500",
+      "imageType": "nature",
+      "username": "AishaKaur",
+      "fullName": "Aisha Kaur",
+      "location": "Mountain",
+      "description": "Journey into the heart of the mountains, where breathtaking landscapes and serene environments await. Majestic peaks, alpine meadows, and untouched beauty create an immersive experience for those seeking solace in nature's embrace."
+    },
+    {
+      "id": 19,
+      "image": "https://source.unsplash.com/random/500x500",
+      "imageType": "landscape",
+      "username": "ZaynMittal",
+      "fullName": "Zayn Mittal",
+      "location": "City",
+      "description": "Immerse yourself in the bustling cityscape, where modernity and tradition converge. From iconic landmarks to vibrant markets, the city offers a dynamic experience filled with culture, history, and diverse culinary delights."
+    },
+    {
+      "id": 20,
+      "image": "https://source.unsplash.com/random/500x500",
+      "imageType": "portrait",
+      "username": "EvaRajput",
+      "fullName": "Eva Rajput",
+      "location": "Beach",
+      "description": "Escape to the serene beach, where golden sands meet the azure waters of the ocean. The gentle sound of waves, palm-fringed landscapes, and a sun-kissed ambiance create a perfect retreat for relaxation and tranquility."
+    }
+  ]
+  
