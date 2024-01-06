@@ -2,6 +2,7 @@ import { View, Text, ScrollView, TouchableOpacity } from 'react-native'
 import React, { useRef, useState } from 'react'
 import StoryBar  from '../components/StoryBar'
 import PostCard from '../components/PostCard';
+import Navbar from '../components/Navbar';
 
 function HomeScreen (){
 
@@ -13,7 +14,7 @@ function HomeScreen (){
 
   const handleScroll = (event) => {
     const scrollY = event.nativeEvent.contentOffset.y;
-    setIsTopButtonActive(scrollY > 3000);
+    setIsTopButtonActive(scrollY > 2000);
   };
 
   const scrollToTop = () => {
@@ -24,6 +25,7 @@ function HomeScreen (){
 
   return (
     <View>
+        <Navbar/>
         <ScrollView 
         showsVerticalScrollIndicator={false}
         contentContainerclassName="p-4"
