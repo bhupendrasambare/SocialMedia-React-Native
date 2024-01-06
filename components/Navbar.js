@@ -4,9 +4,9 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <SafeAreaView className="mb-2">
+    <SafeAreaView className="pb-2 bg-white">
         <StatusBar barStyle="light"/>
-        <View className="flex-row justify-between items-center mx-4 bg">
+        <View className="flex-row justify-between items-center mx-4">
             <TouchableOpacity >
               <CameraIcon size="30" className="text-blue-500" />
             </TouchableOpacity>

@@ -8,7 +8,6 @@ export class App extends Component {
     return (
         <SafeAreaView>
           <View className="h-full">
-              <Navbar/>
               <Navigation/>
           </View>
         </SafeAreaView>
