@@ -8,6 +8,7 @@ function HomeScreen (){
 
   const cards = require('../helpers/stories.json');
   const posts = require('../helpers/posts.json');
+  const users = require('../helpers/users.json');
 
   const scrollViewRef = useRef();
   const [isTopButtonActive, setIsTopButtonActive] = useState(false);
@@ -36,7 +37,7 @@ function HomeScreen (){
         >
             <StoryBar cards={cards}/>
             {posts.map((post) => (
-                <PostCard post={post}/>   
+                <PostCard post={post} users={users}/>   
             ))}
 
         </ScrollView>
