@@ -8,6 +8,7 @@ function HomeScreen (){
 
   const cards = require('../helpers/stories.json');
   const posts = require('../helpers/posts.json');
+  const users = require('../helpers/users.json');
 
   const scrollViewRef = useRef();
   const [isTopButtonActive, setIsTopButtonActive] = useState(false);
@@ -36,13 +37,13 @@ function HomeScreen (){
         >
             <StoryBar cards={cards}/>
             {posts.map((post) => (
-                <PostCard post={post}/>   
+                <PostCard post={post} users={users}/>   
             ))}
 
         </ScrollView>
 
         {isTopButtonActive && (
-            <TouchableOpacity onPress={scrollToTop} className="absolute top-0 items-center w-full">
+            <TouchableOpacity onPress={scrollToTop} className="absolute top-7 items-center w-full">
             <View className="bg-blue-500 rounded-full mt-4">
                 <Text className="text-center px-4 py-2 text-white ">↑ Top</Text>
             </View>
