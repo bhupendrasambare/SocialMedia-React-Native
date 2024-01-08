@@ -1,0 +1,142 @@
+[
+  {
+    "user": {
+      "id": 2,
+      "username": "AnanyaPatel",
+      "fullName": "Ananya Patel",
+      "image": "https://source.unsplash.com/random/300x300",
+      "imageType": "portrait",
+      "seen": false,
+      "followerCount": 300,
+      "followingCount": 150,
+      "description": "Capturing the essence of portraits with a creative touch. 📸",
+      "workTitle": "Portrait Artist"
+    },
+    "messages": [
+      { "fromUserId": 1, "toUserId": 2, "message": "Hey Ananya, your portraits are amazing!", "dateTime": "2024-01-02T12:30:00Z" },
+      { "fromUserId": 2, "toUserId": 1, "message": "Thank you so much! 😊", "dateTime": "2024-01-02T13:15:00Z" },
+      { "fromUserId": 1, "toUserId": 2, "message": "Do you have any upcoming projects?", "dateTime": "2024-01-02T14:00:00Z" },
+      { "fromUserId": 2, "toUserId": 1, "message": "Yes, I'm working on a series of outdoor portraits. Excited about it!", "dateTime": "2024-01-02T15:00:00Z" }
+    ]
+  },
+  {
+    "user": {
+      "id": 3,
+      "username": "AryanSingh",
+      "fullName": "Aryan Singh",
+      "image": "https://source.unsplash.com/random/300x300",
+      "imageType": "nature",
+      "seen": true,
+      "followerCount": 800,
+      "followingCount": 300,
+      "description": "Nature lover and adventurer exploring the wonders of the world. 🌿",
+      "workTitle": "Environmental Scientist"
+    },
+    "messages": [
+      { "fromUserId": 1, "toUserId": 3, "message": "Aryan, your nature photos are breathtaking!", "dateTime": "2024-01-03T14:00:00Z" },
+      { "fromUserId": 3, "toUserId": 1, "message": "Thank you! Nature is my inspiration.", "dateTime": "2024-01-03T14:45:00Z" },
+      { "fromUserId": 1, "toUserId": 3, "message": "What's your favorite location for nature photography?", "dateTime": "2024-01-03T15:30:00Z" },
+      { "fromUserId": 3, "toUserId": 1, "message": "I love capturing scenes in mountainous terrains. The views are stunning!", "dateTime": "2024-01-03T16:15:00Z" }
+    ]
+  },
+  {
+    "user": {
+      "id": 4,
+      "username": "IshitaVerma",
+      "fullName": "Ishita Verma",
+      "image": "https://source.unsplash.com/random/300x300",
+      "imageType": "abstract",
+      "seen": false,
+      "followerCount": 200,
+      "followingCount": 100,
+      "description": "Expressing creativity through abstract art and design. 🎨",
+      "workTitle": "Abstract Artist"
+    },
+    "messages": [
+      { "fromUserId": 4, "toUserId": 1, "message": "Hi Mira! Your photos are incredible, especially the mountain landscapes.", "dateTime": "2024-01-05T13:45:00Z" },
+      { "fromUserId": 1, "toUserId": 4, "message": "Thank you, Ishita! I'm a big fan of abstract art. Your work is inspiring.", "dateTime": "2024-01-05T14:30:00Z" },
+      { "fromUserId": 4, "toUserId": 1, "message": "Do you have any favorite abstract artists that influence your work?", "dateTime": "2024-01-05T15:15:00Z" },
+      { "fromUserId": 1, "toUserId": 4, "message": "Absolutely! I admire the works of [Favorite Abstract Artist]. They have a unique style.", "dateTime": "2024-01-05T16:00:00Z" }
+    ]
+  },
+  {
+    "user": {
+      "id": 6,
+      "username": "MiraSingh",
+      "fullName": "Mira Singh",
+      "image": "https://source.unsplash.com/random/300x300",
+      "imageType": "food",
+      "seen": false,
+      "followerCount": 400,
+      "followingCount": 180,
+      "description": "Food enthusiast on a journey to discover diverse culinary delights. 🍜",
+      "workTitle": "Food Blogger"
+    },
+    "messages": [
+      { "fromUserId": 6, "toUserId": 1, "message": "Hey Aarav! Your landscape photos are breathtaking. How do you capture such amazing shots?", "dateTime": "2024-01-07T12:30:00Z" },
+      { "fromUserId": 1, "toUserId": 6, "message": "Thank you, Mira! It's all about finding the right angles and lighting. I love your food photography too!", "dateTime": "2024-01-07T13:15:00Z" },
+      { "fromUserId": 6, "toUserId": 1, "message": "Do you have any favorite cuisine to photograph? I'm always looking for new food inspirations.", "dateTime": "2024-01-07T14:00:00Z" },
+      { "fromUserId": 1, "toUserId": 6, "message": "Absolutely! I enjoy capturing the vibrant colors of street food. It adds a unique touch to my portfolio.", "dateTime": "2024-01-07T15:00:00Z" }
+    ]
+  },
+  {
+    "user": {
+      "id": 7,
+      "username": "VivaanPatil",
+      "fullName": "Vivaan Patil",
+      "image": "https://source.unsplash.com/random/300x300",
+      "imageType": "people",
+      "seen": true,
+      "followerCount": 700,
+      "followingCount": 300,
+      "description": "Capturing moments that tell stories about people and cultures. 🌍",
+      "workTitle": "Documentary Photographer"
+    },
+    "messages": [
+      { "fromUserId": 7, "toUserId": 1, "message": "Hello Aarav! Your cityscape photos are incredible. How do you choose your photography locations?", "dateTime": "2024-01-08T09:45:00Z" },
+      { "fromUserId": 1, "toUserId": 7, "message": "Hi Vivaan! I usually explore the city to find hidden gems. Your documentary photos are inspiring. How do you approach your subjects?", "dateTime": "2024-01-08T10:30:00Z" },
+      { "fromUserId": 7, "toUserId": 1, "message": "I believe in capturing candid moments that reveal the true essence of a culture. It's about storytelling through images.", "dateTime": "2024-01-08T11:15:00Z" },
+      { "fromUserId": 1, "toUserId": 7, "message": "That's a fantastic approach! It adds so much depth to your work. Do you have any upcoming documentary projects?", "dateTime": "2024-01-08T12:00:00Z" }
+    ]
+  },
+  {
+    "user": {
+      "id": 11,
+      "username": "KabirMalhotra",
+      "fullName": "Kabir Malhotra",
+      "image": "https://source.unsplash.com/random/300x300",
+      "imageType": "fashion",
+      "seen": true,
+      "followerCount": 600,
+      "followingCount": 280,
+      "description": "Passionate about fashion and expressing style through photography. 👗",
+      "workTitle": "Fashion Photographer"
+    },
+    "messages": [
+      { "fromUserId": 11, "toUserId": 1, "message": "Hey Aarav! Your music photos are fantastic. How do you capture the emotion in your shots?", "dateTime": "2024-01-10T14:30:00Z" },
+      { "fromUserId": 1, "toUserId": 11, "message": "Hi Kabir! Thanks for the compliment. I try to focus on the artist's expressions and the energy of the performance. Your fashion photos are stunning! What's your creative process?", "dateTime": "2024-01-10T15:15:00Z" },
+      { "fromUserId": 11, "toUserId": 1, "message": "I believe in highlighting unique styles and personalities. Fashion photography allows me to express creativity through visual storytelling.", "dateTime": "2024-01-10T16:00:00Z" },
+      { "fromUserId": 1, "toUserId": 11, "message": "That's fascinating! Your work truly stands out. Do you have any upcoming fashion shoots that you're excited about?", "dateTime": "2024-01-10T16:45:00Z" }
+    ]
+  },
+  {
+    "user": {
+      "id": 14,
+      "username": "AryanReddy",
+      "fullName": "Aryan Reddy",
+      "image": "https://source.unsplash.com/random/300x300",
+      "imageType": "cars",
+      "seen": false,
+      "followerCount": 400,
+      "followingCount": 200,
+      "description": "Automobile enthusiast capturing the elegance of cars and speed. 🚗",
+      "workTitle": "Automotive Photographer"
+    },
+    "messages": [
+      { "fromUserId": 14, "toUserId": 1, "message": "Hello Aarav! Your landscape photos are inspiring. How do you choose your photography locations?", "dateTime": "2024-01-10T17:30:00Z" },
+      { "fromUserId": 1, "toUserId": 14, "message": "Hi Aryan! Thank you. I often explore different locations to find the perfect scenery. Your automotive photos are incredible! What sparked your interest in cars?", "dateTime": "2024-01-10T18:15:00Z" },
+      { "fromUserId": 14, "toUserId": 1, "message": "I've always been fascinated by the design and power of cars. It's like capturing the essence of speed and elegance in a single frame.", "dateTime": "2024-01-10T19:00:00Z" },
+      { "fromUserId": 1, "toUserId": 14, "message": "That's a unique perspective! Your passion for cars really shines through your photos. Any upcoming automotive events you're looking forward to covering?", "dateTime": "2024-01-10T19:45:00Z" }
+    ]
+  }
+]

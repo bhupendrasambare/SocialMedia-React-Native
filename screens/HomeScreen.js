@@ -43,7 +43,7 @@ function HomeScreen (){
         </ScrollView>
 
         {isTopButtonActive && (
-            <TouchableOpacity onPress={scrollToTop} className="absolute top-0 items-center w-full">
+            <TouchableOpacity onPress={scrollToTop} className="absolute top-7 items-center w-full">
             <View className="bg-blue-500 rounded-full mt-4">
                 <Text className="text-center px-4 py-2 text-white ">↑ Top</Text>
             </View>
