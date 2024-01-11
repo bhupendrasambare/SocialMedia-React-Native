@@ -1,16 +1,17 @@
 import { View, Text, TouchableOpacity, ScrollView, Image } from 'react-native'
 import React, { useState } from 'react'
-import Navbar from '../components/Navbar';
+import ChatNavbar from '../components/ChatNavbar';
 import { getSubStringByLength } from '../helpers/helper';
 
 const Chat = () => {
 
     const [isMessage,setIsMessage] = useState(true);
     const messages = require('../helpers/message.json');
+    const users = require('../helpers/users.json');
     
   return (
     <View className="bg-white">
-        <Navbar/>
+        <ChatNavbar users={users}/>
         <View className="flex-row justify-around items-center mt-3">
             <TouchableOpacity className="w-1/2" onPress={()=>setIsMessage(true)}>
                 <View className={(isMessage)?("pb-2 border-b-4 border-blue-500"):("pb-3 ")}>

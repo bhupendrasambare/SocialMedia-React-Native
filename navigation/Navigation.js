@@ -9,9 +9,9 @@ import HomeScreen from '../screens/HomeScreen';
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 
-export function Navigation (){
+const Tab = createBottomTabNavigator();
 
-    const Tab = createBottomTabNavigator();
+export function Navigation (){
 
     return (
     <NavigationContainer>

@@ -31,12 +31,6 @@ function StoryBar ({cards}) {
                 />
               </View>
           </View>
-          {/* <ImageBackground
-              source={{
-                  uri:`${card.image}?${card.imageType}`}}
-              className={"bg-cover overflow-hidden w-20 h-20 rounded-full border-4 "+((card.seen)?"border-blue-100":"border-blue-600")}
-          >
-          </ImageBackground> */}
         </TouchableOpacity>
         
       {sortedData.map((card) => (
