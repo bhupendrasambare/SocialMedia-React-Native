@@ -3,6 +3,7 @@ import React, { useState } from 'react'
 import ChatNavbar from '../components/ChatNavbar';
 import { getSubStringByLength } from '../helpers/helper';
 import { useNavigation } from '@react-navigation/native';
+import defaultPerson from "../assets/images/default_person.png"
 
 const ChatWindow = () => {
 
@@ -33,6 +34,7 @@ const ChatWindow = () => {
                     <View className="flex-row my-2 mx-3 justify-between">
                         <View className="flex-row my-2">
                             <Image
+                                defaultSource={defaultPerson}
                                 source={{uri: `${msg.user.image}?person-${msg.user.id}`}}
                                 className="w-12 h-12  rounded-full"
                                 />

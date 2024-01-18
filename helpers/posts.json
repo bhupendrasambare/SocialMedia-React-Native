@@ -592,5 +592,71 @@
           "commentDate": "2024-02-24T12:00:00Z"
         }
       ]
+  },
+  {
+      "id": 19,
+      "image": "https://source.unsplash.com/random/500x500",
+      "imageType": "landscape",
+      "username": "ZaynMittal",
+      "fullName": "Zayn Mittal",
+      "location": "City",
+      "description": "Immerse yourself in the bustling cityscape, where modernity and tradition converge. From iconic landmarks to vibrant markets, the city offers a dynamic experience filled with culture, history, and diverse culinary delights.",
+      "comments": [
+        {
+          "user": {
+            "id": 16,
+            "image": "https://source.unsplash.com/random/300x300",
+            "username": "MiraYadav",
+            "fullName": "Mira Yadav",
+            "location": "City"
+          },
+          "comment": "City life has its own charm! Love the energy.",
+          "commentDate": "2024-02-23T15:30:00Z"
+        },
+        {
+          "user": {
+            "id": 20,
+            "image": "https://source.unsplash.com/random/300x300",
+            "username": "EvaRajput",
+            "fullName": "Eva Rajput",
+            "location": "Beach"
+          },
+          "comment": "City exploration is always exciting!",
+          "commentDate": "2024-02-24T12:00:00Z"
+        }
+      ]
+  },
+  {
+      "id": 19,
+      "image": "https://source.unsplash.com/random/500x500",
+      "imageType": "landscape",
+      "username": "ZaynMittal",
+      "fullName": "Zayn Mittal",
+      "location": "City",
+      "description": "Immerse yourself in the bustling cityscape, where modernity and tradition converge. From iconic landmarks to vibrant markets, the city offers a dynamic experience filled with culture, history, and diverse culinary delights.",
+      "comments": [
+        {
+          "user": {
+            "id": 16,
+            "image": "https://source.unsplash.com/random/300x300",
+            "username": "MiraYadav",
+            "fullName": "Mira Yadav",
+            "location": "City"
+          },
+          "comment": "City life has its own charm! Love the energy.",
+          "commentDate": "2024-02-23T15:30:00Z"
+        },
+        {
+          "user": {
+            "id": 20,
+            "image": "https://source.unsplash.com/random/300x300",
+            "username": "EvaRajput",
+            "fullName": "Eva Rajput",
+            "location": "Beach"
+          },
+          "comment": "City exploration is always exciting!",
+          "commentDate": "2024-02-24T12:00:00Z"
+        }
+      ]
   }
 ]

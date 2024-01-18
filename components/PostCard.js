@@ -3,6 +3,8 @@ import React, { useEffect, useState } from 'react'
 import { getSubStringByLength } from '../helpers/helper'
 import { ChatBubbleOvalLeftIcon, HeartIcon, PaperAirplaneIcon, XCircleIcon } from 'react-native-heroicons/outline';
 import { HeartIcon as HeartSolid } from 'react-native-heroicons/solid';
+import defaultImage from "../assets/images/default_image.png"
+import defaultPerson from "../assets/images/default_person.png"
 
 const PostCard = ({ post ,users}) => {
 
@@ -27,6 +29,7 @@ const PostCard = ({ post ,users}) => {
             <View className="bg-white p-4 mb-4 rounded-md shadow-md">
                 <View className="flex-row">
                     <Image 
+                        defaultSource={defaultPerson}
                         source={{uri: `https://source.unsplash.com/random/300x300?person`}}
                         className="w-8 h-8  rounded-full"
                     />
@@ -39,7 +42,7 @@ const PostCard = ({ post ,users}) => {
                 <View className="relative">
 
                     <Image 
-                        
+                        defaultSource={defaultImage}
                         source={{uri: `${post.image}?${post.location}`}} 
                         className="w-full h-64 mx-auto mb-2 rounded-md z-0"
                     />
@@ -94,6 +97,7 @@ const PostCard = ({ post ,users}) => {
                             <View className="flex-row my-2 mx-3 justify-between">
                                 <View className="flex-row">
                                     <Image 
+                                        defaultSource={defaultPerson}
                                         source={{uri: `${user.image}?person-${user.id}`}}
                                         className="w-12 h-12  rounded-full"
                                         />
@@ -131,6 +135,7 @@ const PostCard = ({ post ,users}) => {
                                 <View className="flex-row my-2 ml-3 justify-between items-center">
                                     <View className="flex-row w-9/12">
                                         <Image 
+                                            defaultSource={defaultPerson}
                                             source={{uri: `${comment.user.image}?person-${comment.user.id}`}}
                                             className="w-12 h-12  rounded-full"
                                             />

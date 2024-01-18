@@ -3,6 +3,7 @@ import { Image, Modal, Pressable, SafeAreaView, ScrollView, StatusBar, Text, Tou
 import React, { useState } from 'react'
 import { ArrowLeftIcon } from "react-native-heroicons/solid"
 import { useNavigation } from "@react-navigation/native"
+import defaultPerson from "../assets/images/default_person.png"
 
 const ChatNavbar = ({users}) => {  
 
@@ -53,6 +54,7 @@ const ChatNavbar = ({users}) => {
                         <View className="flex-row my-2 mx-3 justify-between">
                             <View className="flex-row my-2">
                                 <Image
+                                    defaultSource={defaultPerson}
                                     source={{uri: `${user.image}?person-${user.id}`}}
                                     className="w-12 h-12  rounded-full"
                                     />
