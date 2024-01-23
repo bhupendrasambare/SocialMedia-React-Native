@@ -2,9 +2,10 @@ import { SafeAreaView, StatusBar, Text, TouchableOpacity, View } from 'react-nat
 import React, { Component } from 'react'
 import Navbar from './components/Navbar'
 import Navigation from './navigation/Navigation'
-
+import { LogBox } from 'react-native';
 export class App extends Component {
   render() {
+    LogBox.ignoreLogs(['Warning: ...']);
     return (
         <SafeAreaView>
           <View className="h-full">

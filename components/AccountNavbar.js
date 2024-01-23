@@ -1,4 +1,4 @@
-import {PlusCircleIcon, CameraIcon, Cog8ToothIcon} from "react-native-heroicons/outline"
+import {PlusCircleIcon, Cog8ToothIcon} from "react-native-heroicons/outline"
 import { SafeAreaView, StatusBar, Text, TouchableOpacity, View } from 'react-native'
 import React from 'react'
 

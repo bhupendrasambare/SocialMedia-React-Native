@@ -30,7 +30,7 @@ const ChatWindow = () => {
         <ScrollView showsVerticalScrollIndicator={false} className="h-full ">
             
             {messages.map((msg) => (
-                <TouchableOpacity onPress={()=>navivation.navigate("MESSAGE")}>
+                <TouchableOpacity onPress={()=>navivation.navigate("MESSAGE", { data: msg})}>
                     <View className="flex-row my-2 mx-3 justify-between">
                         <View className="flex-row my-2">
                             <Image

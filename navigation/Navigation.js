@@ -61,21 +61,6 @@ function TabNavigator (){
         }}
       />
       <Tab.Screen 
-        name="GLOB" 
-        component={World}
-        options={{
-            tabBarShowLabel: false,
-            tabBarIcon: ({ size ,focused}) => 
-            {
-              if (focused) {
-                return <GlobeAltIcon name="home" color={"#3b82f6"} size={size+5} />
-              } else{
-                return <GlobeHolo name="home" color={"#3b82f6"} size={size+5} />
-              } 
-            }
-        }}
-      />
-      <Tab.Screen 
         name="ACCOUNT" 
         component={Account}
         options={{

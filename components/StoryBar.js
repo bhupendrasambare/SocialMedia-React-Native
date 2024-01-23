@@ -1,7 +1,6 @@
 import React from 'react';
 import { ScrollView, TouchableOpacity, View, Image } from 'react-native';
 import { PlusCircleIcon } from 'react-native-heroicons/outline';
-import { UserCircleIcon } from 'react-native-heroicons/solid';
 import defaultPerson from "../assets/images/default_person.png"
 
 function StoryBar ({cards}) {
@@ -9,7 +8,7 @@ function StoryBar ({cards}) {
   const sortedData = [...cards].sort((a, b) => (a.seen === b.seen ? 0 : a.seen ? 1 : -1));
 
   const getStoryDetails = (prop) =>{
-    console.log(prop)
+    
   }
 
   return (

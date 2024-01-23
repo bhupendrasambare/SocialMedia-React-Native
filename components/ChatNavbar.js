@@ -1,5 +1,5 @@
 import { PencilSquareIcon, XCircleIcon} from "react-native-heroicons/outline"
-import { Image, Modal, Pressable, SafeAreaView, ScrollView, StatusBar, Text, TouchableOpacity, View } from 'react-native'
+import { Image, Modal, SafeAreaView, ScrollView, StatusBar, Text, TouchableOpacity, View } from 'react-native'
 import React, { useState } from 'react'
 import { ArrowLeftIcon } from "react-native-heroicons/solid"
 import { useNavigation } from "@react-navigation/native"

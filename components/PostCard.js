@@ -1,7 +1,7 @@
 import { View, Text, Image, TouchableOpacity, Modal, Button, ScrollView, TextInput } from 'react-native'
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import { getSubStringByLength } from '../helpers/helper'
-import { ChatBubbleOvalLeftIcon, HeartIcon, PaperAirplaneIcon, XCircleIcon } from 'react-native-heroicons/outline';
+import { ChatBubbleOvalLeftIcon, HeartIcon, PaperAirplaneIcon } from 'react-native-heroicons/outline';
 import { HeartIcon as HeartSolid } from 'react-native-heroicons/solid';
 import defaultImage from "../assets/images/default_image.png"
 import defaultPerson from "../assets/images/default_person.png"
